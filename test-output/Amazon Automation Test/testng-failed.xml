@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation Test]">
+  <test thread-count="5" name="Amazon Automation Test Cases(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="loginPageTitelTest"/>
+          <include name="amazonLogoImageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyCustomerServiceLink"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CustomerServicePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCustomerServiceHeading"/>
+          <include name="tearDown"/>
+          <include name="clickAccessibilty"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CustomerServicePageTest -->
+    </classes>
+  </test> <!-- Amazon Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Test] -->
